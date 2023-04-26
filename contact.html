@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 
+    <title> Food Comet - Retro Diner </title>
+    <link rel="icon" type="image/x-icon" href="images/logo.png">
+    <link rel ="stylesheet" type= "text/css" href="style.css">
+
+    <!--  Icons :  --> 
+    <script src="https://kit.fontawesome.com/dcdd61bb16.js" crossorigin="anonymous"></script> 
+   
+   
+    <!--  Scroll Bar :  --> 
+    <style>   
+        /* width */
+        ::-webkit-scrollbar {  width: 5px; }
+        /* Track */
+        ::-webkit-scrollbar-track {  background: #1c0522; }
+        /* Handle */
+        ::-webkit-scrollbar-thumb { background: #7596de32; }
+        /* Handle on hover */
+        ::-webkit-scrollbar-thumb:hover { background: #BCB1D6;  }
+    </style>
+</head>
+
+<body>
+
+    <header> 
+        <a href = "index.html"><img src = "images/logo.png" class= "logo" > </a>  
+        <div>
+            <ul id = "navbar">
+                <li> <a href= "index.html" > Home </a> </li>
+                <li> <a href="menu.html" > Menu </a> </li>
+                <li> <a href="reservation.html" > Reservation </a> </li>
+                <li> <a href= "contact.html" class= "active"> Contact </a> </li>
+                <li> <a href= "contact.html" > <i class="fa-solid fa-phone-volume"></i> 070012525 </a> </li>
+                <li> <a href= "user.html" > <i class="fa-regular fa-user"></i>  </a> </li>
+                <li id = "cart"> <a href= "cart.html" > <i class="fa-solid fa-cart-shopping"></i></a> </li>
+                <a href= "#" id="close" > <i class="fa-solid fa-circle-xmark"></i></a> 
+            </ul>
+        </div>
+
+        <div id="mobile">
+            <a href= "cart.html" ><i class="fa-solid fa-cart-shopping"></i></a> 
+            <i id = "bar" class="fa-solid fa-bars-staggered"></i> 
+
+        </div>
+   
+    </header>
+    
+    <section id="contact_details">
+        <div class="info">
+            <p>LOCATION</p>
+            <h2>Come take a bite at</h2>
+            <div>
+                <li>
+                    <i class="fa-sharp fa-solid fa-location-dot"></i>
+                    <p>373 Hannum St, Alcoa, TN 37701, United States</p>
+                </li>
+                <li>
+                    <i class="fa-solid fa-clock"></i>
+                    <p>Open: Monday to Sunday  11AM-9AM</p>
+                </li>
+                <li>
+                    <i class="fa-solid fa-envelope"></i>
+                    <p>food_comet@gmail.com</p>
+                </li>
+                <li>
+                    <i class="fa-solid fa-phone"></i>
+                    <p>070012525</p>
+                </li>
+            </div>
+
+            </div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d32358297.91544222!2d-114.66401786144267!3d29.61568570670192!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x885e9fd4a7d72da3%3A0x7fd253420e24b871!2sHot%20Rods%2050&#39;s%20Diner!5e0!3m2!1sen!2sbg!4v1672780696669!5m2!1sen!2sbg" 
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <div>
+
+        </div>
+
+    </section>
+    
+
+    <section id = "newsletter"> 
+        <div class="newsletter_text">
+            <h4>Sign up for our newsletter to get <span>10% off</span> your first order</h4>
+            <p>Get updates on the latest sales and new seasonal menu items</p>
+        </div>  
+
+        <div class = "form"> 
+            <input type="text" placeholder="Your email">
+            <button>Sign Up</button>
+        </div>
+    </section>
+
+ 
+    <footer>
+        <div class="columns">
+            <img src = "images/logo.png">
+            <p><strong>Address:</strong>  373 Hannum St, Alcoa, TN 37701, United States</p>
+            <p><strong>Phone:</strong>  070012525</p>
+            <p><strong>Open:</strong>  Monday-Sunday, 11AM-9AM</p>
+            <div class = "social">
+                <h4>Our social media</h4>
+                <div class= "icons">
+                    <a href= "https://www.facebook.com/" class= "active"> <i class="fa-brands fa-facebook"></i></a> 
+                    <a href= "https://www.youtube.com/" class= "active"> <i class="fa-brands fa-youtube"></i></a> 
+                    <a href= "https://www.instagram.com/" class= "active"> <i class="fa-brands fa-instagram"></i></a> 
+                </div>
+            </div>
+        </div>
+
+
+        <div class="columns">
+            <h4>Navigation</h4>
+            <a href= "index.html"> Home </a> 
+            <a href="menu.html" > Our Menu </a> 
+            <a href="reservation.html" >Make A Reservation </a> 
+            <a href= "contact.html" > Contact Us</a> 
+        </div>
+        
+        <div class="columns">
+            <h4>Account</h4>
+            <a href= "user.html"> Sign In / Register </a> 
+            <a href= "cart.html" > Check Cart </a> 
+        </div>
+
+        <div class = "install">
+           <h4>Install Our App</h4>
+           <p>On App Store & Google Play</p>
+           <a href= "https://www.apple.com/app-store/" ><i class="fa-brands fa-app-store"></i></a> 
+           <a href= "https://play.google.com/store/apps?hl=en&gl=US" ><i class="fa-brands fa-google-play"></i></a> 
+        
+           <div class="payment"> 
+                <h4>Secured Payment</h4>
+                <i class="fa-brands fa-cc-apple-pay"></i>
+                <i class="fa-brands fa-cc-visa"></i>
+                <i class="fa-brands fa-cc-mastercard"></i>
+                <i class="fa-brands fa-cc-paypal"></i>
+           </div>
+        </div>
+
+        <div class = "copyright"> 
+            <p> © 2023, F104331 Selina Gramadova - HTML CSS JAVASCRIPT </p>
+        </div>
+    </footer>
+    
+    <script src = "script.js"></script>
+   
+    
+</body>
+</html>
