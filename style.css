@@ -8,7 +8,7 @@
 }
 body{
     overflow-x: hidden;
-    background-image: linear-gradient(to bottom, #2a10556b, #7596de84), url('images/planet.jpg');
+    background-color: #1c0522;   
     background-size: 100%;
 }
 
